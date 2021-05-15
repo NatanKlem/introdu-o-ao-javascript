@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#total{
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+
+#topo{
+    width: 960px;
+    height: 35px;
+    background-color: rgb(12, 12, 155);
+    float: left;
+}
+
+#logo{
+    width: 144px;
+    height: 182px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline;
+    z-index: 4;
+}
+
+#menu{
+    float: right;
+    line-height: 35px ;
+}
+
+#menu a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 50px;
+}
+
+menu a:hover{
+    text-decoration: underline;
+}
+
+#banner{
+    width: 960px;
+    height: 300px;
+    float: left;
+    border-bottom: 1px solid rgb(12, 12, 155) ;
+}
+
+#conteudo{
+    width: 600px;
+    min-height: 100px
+    float: left;
+}
+
+#box1,#box2,#box3{
+    width: 280px;
+    min-height: 100px;
+    background-color:;
+    float: left;
+}
+
+#box2{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#rodape{
+    width: 960px;
+    height: 35px;
+    background-color: rgb(12, 12, 155);
+    float: left;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.inleft{
+    float: left;
+}
+
+.titulo{
+    float: right;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
